@@ -2,7 +2,7 @@ const timeStamp = '1606335664';
 const apiKey = '2000d97b1144d4eaab19aea66f562ae6'; //public key
 const md5 = '2c6456123268b4bb30127babfa57b15f';
 
-fetch(`https://gateway.marvel.com:443/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&limit=6`)
+fetch(`https://gateway.marvel.com:443/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}`)
 .then((response) => {
     return response.json();
 })
